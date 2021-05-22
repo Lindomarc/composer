@@ -9,6 +9,13 @@
 	
 	$newEmail = new Email;
 	
-	$newEmail->sendEmail();
+	$data = [
+		'subject' => 'Test',
+		'body' => '<p>This is just a test</p>',
+		'replayEmail' => 'replayemail@exemple.com',
+		'replayName' => 'Replay Name',
+		'addAddressEmail' => 'addaddress@exemple.com',
+		'addAddressName' => 'AddAddress Name',
+	];
+	$newEmail->sendEmail($data);
 	
-	exit;
