@@ -37,7 +37,7 @@
 				$this->config = json_decode(file_get_contents($file));
 			} else {
 				echo "<p>Not Found config file:</p>";
-				echo '<p>/config/config_mail.json</p>';
+				echo "<p>{$file}</p>";
 				die();
 			}
 		}
