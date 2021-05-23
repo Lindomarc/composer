@@ -10,7 +10,7 @@ composer require lindomar/notification
 
 To use the library, simply require the composer to autoload, invoke the class and call the method:
 
-Copy the file ***config_mail.json.exemple*** to ***/app/config/config_mail.json***
+Copy the file ***config_mail.json.exemple*** to ***/config/config_mail.json***
 
 Update with your SMTP server configuration data
 
