@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Notification\\Email\\": "_app"
+            "Notification\\Email\\": "src"
         }
     }
 }
