@@ -10,18 +10,20 @@ composer require lindomar/notification
 
 To use the library, simply require the composer to autoload, invoke the class and call the method:
 
-Copy the file ***config.php.exemple*** to ***config.php**
+Copy the file ***config_mail.json.exemple*** to ***/app/config/config_mail.json***
 
 Update with your SMTP server configuration data
+
 ```
-<?php
-	const SMTPDebug = '2';
-	const MAIL_MAILER = 'smtp';
-	const MAIL_HOST = 'smtp.mailtrap.io';
-	const MAIL_PORT = '2525';
-	const MAIL_USERNAME = 'XXXXXXXXXXXXXX';
-	const MAIL_PASSWORD = 'XXXXXXXXXXXXXX';
-	const MAIL_ENCRYPTION = 'tls';
+{ 
+	"SMTPDebug" : "2",
+	"MAIL_MAILER" : "smtp",
+	"MAIL_HOST": "smtp.mailtrap.io",
+	"MAIL_PORT": "2525",
+	"MAIL_USERNAME": "XXXXXXXXXXXXXX",
+	"MAIL_PASSWORD": "XXXXXXXXXXXXXX",
+	"MAIL_ENCRYPTION": "tls"
+}
 ```
 
 

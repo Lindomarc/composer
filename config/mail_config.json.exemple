@@ -1,0 +1,10 @@
+{ 
+	"SMTPDebug" : "2",
+	"MAIL_MAILER" : "smtp",
+	"MAIL_HOST": "smtp.mailtrap.io",
+	"MAIL_PORT": "2525",
+	"MAIL_USERNAME": "XXXXXXXXXXXXXX",
+	"MAIL_PASSWORD": "XXXXXXXXXXXXXX",
+	"MAIL_ENCRYPTION": "tls"
+}
+	
